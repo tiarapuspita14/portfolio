@@ -20,9 +20,6 @@ nav{
 	background-color: transparent;
 	padding:5px 20px;
 	transition: 0.5s;
-	
-
-
 }
 nav.sticky{
 	color: #000;
@@ -97,7 +94,7 @@ a:hover {
 
 
 }
-.items.activ{
+.items.active{
 	display: block;
 }
 
@@ -132,6 +129,8 @@ a:hover {
 .bars::after{
 	top: -5px;
 }
+
+
 @media (max-width:767px){
 	
 	.cards{
@@ -144,6 +143,7 @@ a:hover {
 		height: 50%;
 	} */
 
+	
 }
 
 @media (min-width:768px) {
@@ -280,7 +280,6 @@ visibility: hidden;
 }
 .link{
 	padding-top: 10%;
-	padding-left:42.5%;
 }
 .link a{
 	width: 40px;
@@ -290,6 +289,7 @@ visibility: hidden;
 	transition: 0.5s;
 	transform-style: preserve-3d;
 	transform: translateZ(40px);
+	
 }
 .link a:hover{
 	background-color: transparent;
